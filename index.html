@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>River: Create New Account</title>
+    <style>
+        body {
+            background-color: #bbbbbb;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create New River Account</h1><hr><br>
+    <form id="createAccountForm">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div><br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div><br>
+        <div>
+            <label for="password">I accept the River Games Terms of Service</label>
+            <input type="checkbox" id="terms" name="terms" required>
+        </div><br>
+        <button type="submit">Create Account</button>
+        <p id="message"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
